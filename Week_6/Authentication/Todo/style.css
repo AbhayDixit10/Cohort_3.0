@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(105, 191, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: white;
+    min-height: 50%;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    padding:20px 40px 0 20px ;
+}
+
+#box h3{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    /* margin-bottom: 100px; */
+    /* align-self: flex-start; */
+}
+#box h5{
+    font-weight:400;
+}
+#headings{
+    margin-bottom: 70px;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+}
+#logout-btn{
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    background-color: rgb(22, 141, 232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#box input{
+    border: none;
+    border-bottom: 0.1px solid black;
+    margin:0 0 10px 0;
+    padding:5px 0 0px 0;
+    outline: none;
+    transition: ease .1s;
+}
+#box input:focus{
+    border-bottom: 5px solid green;
+}
+#signin-btn,#signup-btn{
+    margin-top: 20px;
+    height: 30px;
+    width: 70px;
+    margin-left: 77%;
+    border-radius: 5px;
+}
+
+/* Todos Page Styling */
+
+#todo-box{
+    background-color: white;
+    height: 70%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease-in .2s;
+}
+#todo-box:hover{
+    box-shadow: 10px 10px black;
+}
+#todo-box h4,#middle-txt{
+    font-weight:400;
+}
+#todo-box #middle-txt{
+    font-size:  30px;
+    font-style: italic;
+}
+#todo-inputs{
+    padding: 20px 50px 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 0 0 0; */
+}
+#todo-inputs input{
+    outline: none;
+    border-radius: 0px;
+    border: 0.5px solid black;
+    height: 50px;
+    width: 300px;
+    padding-left:10px   ;
+}
+#todo-inputs button{
+    height: 40px;
+    width: 90px;
+}
+#todo-list{
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    /* margin-right: 50px; */
+}
+.todo-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px;     */
+    padding: 10px 40px 10px 0;    
+}
+.todo-task h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight:200;
+}
+.todo-list-btns button{
+    height: 20px;
+    width: 20px;
+    border-radius:50% ;
+    cursor: pointer;
+}
+.del-btn{
+    background-color: red;
+    border: none;
+} 
+.edit-btn{
+    background-color: green;
+    border: none;
+}

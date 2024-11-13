@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="todo-box">
+            <div id="heading">
+                <div id="text-container">
+                    <h2 id="nameGreet">Welcome, Abhay!</h2>
+                    <h4>Your Todo List!</h4>
+                </div>
+                <button id="logout-btn">Log out</button>
+            </div>
+            <div id="todo-inputs">
+                <input type="text" placeholder="Write Task">
+                <button id="submit-btn">Add</button>
+            </div>
+            <h3 id="middle-txt">Tasks</h3>
+            <div id="todo-list">
+                <div class="todo-task">
+                    <h3>Task 1</h3>
+                    <div class="todo-list-btns">
+                        <button class="del-btn"></button>
+                        <button class="edit-btn"></button>
+                    </div>
+                </div>
+                <div class="todo-task">
+                    <h3>Task 2</h3>
+                    <div class="todo-list-btns">
+                        <button class="del-btn"></button>
+                        <button class="edit-btn"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
